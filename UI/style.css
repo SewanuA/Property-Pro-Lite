@@ -122,10 +122,41 @@ header a:hover{
 	color: #ffffff;
 }
 
-.btn{
+.sign-in input{
 	border-radius: 10px;
+	padding: 10px;
+	border: 0;
 }
 
+.sign-up{
+	background-color: #35424a;
+	padding: 5px;
+	color: #ffffff;
+}
+
+.sign-up input{
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+}
+
+.sign-in select{
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+	cursor: pointer;
+}
+
+.btn{
+	border-radius: 10px;
+	color: green;
+	cursor: pointer;
+	width: 80px;
+}
+
+.btn:hover{
+	background-color: #ffffff;
+}
 footer{
 	margin-left: 60%;
 }
