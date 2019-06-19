@@ -114,3 +114,22 @@ header a:hover{
 footer{
 	margin-left: 60%;
 }
+
+/* Media Queries */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header li,
+	#adverts .box,
+	#about-us,
+	#mission,
+	#vision{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+}
