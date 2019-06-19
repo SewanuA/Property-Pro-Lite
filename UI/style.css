@@ -1,0 +1,181 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+.container{
+	width:80%; 
+	margin: auto;
+	overflow: hidden;
+}
+
+header{
+	background: #ffffff; 
+	min-height: 70px;
+	padding-top: 30px;
+	border-bottom: #ffffff 5px solid;
+}
+
+header a{
+	color: #35424a;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+
+header ul{
+	margin: 0;
+	padding: 0; 
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;   
+}
+
+header .current a{
+	color: blue;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+#showcase h1{
+	text-align: center;
+	font-weight: bold;
+	padding: 0;
+	color: #3b404c;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#adverts{
+	margin-top: 20px;
+}
+
+#adverts h2{
+	text-align: center;  
+}
+
+#adverts .box{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+#contact{
+	padding-left: 10px;
+}
+
+#contact h3{
+	color: blue;
+}
+
+#cont{
+	margin-left: 10%;
+}
+
+#cont h3{
+	color: blue;
+}
+
+#main{
+	background-color: #f4f4f4;
+}
+
+#vision{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+#mission{
+	float: left;
+	width: 65%;
+}
+
+#main h2, #main h3{
+	color: blue;
+}
+
+.sign-in{
+	text-align: center;
+	background-color: #35424a;
+	padding: 5px;
+	color: #ffffff;
+}
+
+.sign-in input{
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+}
+
+.sign-up{
+	background-color: #35424a;
+	padding: 5px;
+	color: #ffffff;
+}
+
+.sign-up input{
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+}
+
+.sign-in select{
+	border-radius: 10px;
+	padding: 10px;
+	border: 0;
+	cursor: pointer;
+}
+
+.btn{
+	border-radius: 10px;
+	color: green;
+	cursor: pointer;
+	width: 80px;
+}
+
+.btn:hover{
+	background-color: #ffffff;
+}
+footer{
+	margin-left: 60%;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header li,
+	#adverts .box,
+	#about-us,
+	#mission,
+	#vision{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header{
+		padding-bottom: 20px;
+	}
+}
