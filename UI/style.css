@@ -88,6 +88,29 @@ header a:hover{
 	color: blue;
 }
 
+#cont{
+	margin-left: 10%;
+}
+
+#main{
+	background-color: #f4f4f4;
+}
+
+#vision{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+#mission{
+	float: left;
+	width: 65%;
+}
+
+#main h2, #main h3{
+	color: blue;
+}
+
 footer{
 	margin-left: 60%;
 }
