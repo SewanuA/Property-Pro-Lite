@@ -92,6 +92,10 @@ header a:hover{
 	margin-left: 10%;
 }
 
+#cont h3{
+	color: blue;
+}
+
 #main{
 	background-color: #f4f4f4;
 }
@@ -109,6 +113,17 @@ header a:hover{
 
 #main h2, #main h3{
 	color: blue;
+}
+
+.sign-in{
+	text-align: center;
+	background-color: #35424a;
+	padding: 5px;
+	color: #ffffff;
+}
+
+.btn{
+	border-radius: 10px;
 }
 
 footer{
