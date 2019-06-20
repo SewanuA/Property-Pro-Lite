@@ -92,8 +92,17 @@ header a:hover{
 
 #adverts .box{
 	float: left;
-	width: 20%;
+	width: 19%;
 	text-align: center;
+	margin-right: 10px;
+}
+
+#adverts .boxes{
+	float: left;
+	width: 32%;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 #contact{
