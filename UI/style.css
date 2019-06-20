@@ -73,7 +73,9 @@ header a:hover{
 
 #search-b{
 	background-color: #408FCD;
-	padding: 0 0 10px 20px;
+	padding: 0 0 15px 40px;
+	border-radius: 20px;
+	margin-top: 0;
 }
 
 #search-b h2{
@@ -117,7 +119,6 @@ header a:hover{
 #vision{
 	float: right;
 	width: 30%;
-	margin-top: 10px;
 }
 
 #mission{
@@ -131,9 +132,10 @@ header a:hover{
 
 .sign-in{
 	text-align: center;
-	background-color: #35424a;
+	background-color: #408FCD;
 	padding: 5px;
 	color: #ffffff;
+	border-radius: 20px;
 }
 
 input{
@@ -159,7 +161,7 @@ select{
 	padding: 10px;
 	border: 0;
 	cursor: pointer;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 .btn{
