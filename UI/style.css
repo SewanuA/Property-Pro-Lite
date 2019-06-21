@@ -218,9 +218,18 @@ select{
 	width: 100px;
 }
 
-.btn:hover{
+.btn:hover, #del:hover, #add-image:hover{
 	background-color: #ffffff;
 }
+
+#del{
+	border-radius: 5px;
+	color: red;
+	cursor: pointer;
+	width: 60px;
+	margin-left: 10px;
+}
+
 footer{
 	margin-left: 60%;
 }
