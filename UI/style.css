@@ -105,6 +105,16 @@ header a:hover{
 	margin-bottom: 10px;
 }
 
+#prop-info{
+	border: 1px solid #9dc0dc;
+	padding: 0 0 50px 10px;
+	border-radius: 20px;
+}
+
+#prop-info label{
+	margin-right: 100px;
+}
+
 #contact{
 	padding-left: 10px;
 }
