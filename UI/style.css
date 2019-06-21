@@ -105,6 +105,7 @@ header a:hover{
 	margin-bottom: 10px;
 }
 
+
 #prop-info{
 	border: 1px solid #9dc0dc;
 	padding: 0 0 50px 10px;
@@ -113,6 +114,38 @@ header a:hover{
 
 #prop-info label{
 	margin-right: 100px;
+}
+
+.agent{		
+	margin-bottom: 30px;
+}
+
+.agent-info{
+	margin-top: 40px;
+}
+
+.agent-info label{
+	float: right;
+	width: 20%;
+	margin-right: 70px;
+	padding-bottom: 20px;
+}
+
+.agent-info img{
+	float: left;
+	width: 15%;
+	border-radius: 30px;
+}
+
+.agent-box{
+	margin-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
+	border: 1px solid #9dc0dc
+}
+
+.agent-box label{
+	margin-right: 50px;
 }
 
 #contact{
